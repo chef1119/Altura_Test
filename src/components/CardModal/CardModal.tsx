@@ -55,7 +55,7 @@ export default function CardModal(props:{ open: any, handleClose: any, data:any,
       >
         <Box className='typo-container' sx={style}>
             <Grid container spacing={3}>
-                <Grid container spacing={3}>
+                <Grid item spacing={3} xs={12} sm={5}>
                     <Grid item xs={12} sm={12} sx={{textAlign:'center', margin:"15px"}}>
                         <CardMedia sx={{ height: "300px"}} image={props?.image}/>
                     </Grid>
@@ -63,7 +63,7 @@ export default function CardModal(props:{ open: any, handleClose: any, data:any,
                         <Typography>{props.metadata && (JSON.parse(props.metadata).name) }</Typography>
                     </Grid>
                 </Grid>
-                <Grid container sx={{textAlign:'center', alignContent:'center'}}>
+                <Grid item sx={{textAlign:'center', alignContent:'center'}} xs={12} sm={7}>
                     <Grid item xs={12} sm={12} sx={{margin:"15px"}}>
                         <Typography sx={{textTransform: 'uppercase'}}>{props.metadata && (JSON.parse(props.metadata).description) }</Typography>
                     </Grid>
