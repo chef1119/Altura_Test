@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'PressStart2P';
+  src: url('../public/fonts/PressStart2P-Regular.ttf');
+}
+
+body {
+  margin: 0;
+  font-family: 'PressStart2P';
+  background-image: url('../public/images/background.jpg');
+  background-size: cover;
+  background-repeat: repeat;
+  color: white;
+  @media (max-width: 780px) or (max-height: 780px) {
+    background-repeat: repeat-y;
+  }
+}
+
+div {
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

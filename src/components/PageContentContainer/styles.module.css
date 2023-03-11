@@ -1,0 +1,4 @@
+.pageContentRoot {
+  height: calc(100vh - 71px);
+  margin: 0px 32px;
+}

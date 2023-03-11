@@ -1,0 +1,28 @@
+.typo-container {
+    width: 70%;
+}
+
+.typo-container .MuiTypography-root {
+    margin-left: 15px;
+    font-family: 'PressStart2P' !important;
+    font-size: 12px;
+}
+
+.purchase-button {
+    border-radius: 0.75rem;
+    background-color: #050017 !important;
+    border: none;
+    height: 70px;
+    box-shadow: 0px 0px 13px #ff3f84;
+    color:#ff8cdf !important;
+    font-family: 'PressStart2P' !important;
+
+    &:hover {
+        box-shadow: 0px 0px 10px #ff3f84;
+        border: none;
+    }
+    &:active {
+        box-shadow: 0px 0px 10px #ff8cdf;
+        border: none;
+    }
+}

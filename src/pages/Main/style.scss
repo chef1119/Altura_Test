@@ -1,0 +1,141 @@
+.wallet_address {
+    border-radius: 0.75rem;
+    background-color: #050017;
+    border: none;
+    color:white;
+    font-family: 'PressStart2P';
+    box-shadow: 0px 0px 13px #6d699e;
+    &:hover {
+        box-shadow: 0px 0px 10px #ff3f84;
+        background-color: #050017;
+        border: none;
+        color:white;
+        border: none;
+    }
+    &:active {
+        box-shadow: 0px 0px 10px #ff8cdf;
+        background-color: #050017;
+        border: none;
+        color:white;
+        border: none;
+    }
+    
+    
+}
+
+
+
+.wallet_address .MuiOutlinedInput-input {
+    color: white;
+    font-family: 'PressStart2P';
+    &:hover {
+        box-shadow: 0px 0px 10px #ff3f84;
+    }
+    &:active {
+        box-shadow: 0px 0px 10px #ff8cdf;
+    }
+}
+
+.wallet_address .MuiFormLabel-root {
+    color: #6d699e;
+    font-family: 'PressStart2P';
+    &:hover {
+        box-shadow: 0px 0px 10px #ff3f84;
+    }
+    &:active {
+        box-shadow: 0px 0px 10px #ff8cdf;
+    }
+    &:disabled {
+        color: #6d699e !important;
+        font-family: 'PressStart2P';
+    }
+}
+
+.chain-select {
+    border-radius: 0.75rem;
+    background-color: #050017;
+    border: none;
+    color:white;
+    font-family: 'PressStart2P';
+    box-shadow: 0px 0px 13px #6d699e;
+    &:hover {
+        box-shadow: 0px 0px 10px #ff3f84;
+        border: none;
+    }
+    &:active {
+        box-shadow: 0px 0px 10px #ff8cdf;
+        border: none;
+    }
+    .MuiSelect-select {
+        color: white; 
+        font-family: 'PressStart2P';
+        &:hover {
+            box-shadow: 0px 0px 10px #ff3f84;
+            border: none;
+        }
+        &:active {
+            box-shadow: 0px 0px 10px #ff8cdf;
+            border: none;
+        }
+        &:disabled {
+            color:white !important
+        }
+    }
+    .MuiSvgIcon-root {
+        color: white;
+    }
+}
+
+.MuiFormLabel-root.chain-select-label {
+    color: #6d699e;
+    font-family: 'PressStart2P';
+    &:hover {
+        box-shadow: 0px 0px 10px #ff3f84;
+    }
+    &:active {
+        box-shadow: 0px 0px 10px #ff8cdf;
+    }
+}
+
+.MuiList-root {
+    background-color: #161071;
+    color: #6d699e;
+    .MuiButtonBase-root {
+        font-family: 'PressStart2P';
+        &:hover {
+            box-shadow: 0px 0px 10px #ff3f84;
+        }
+        &:active {
+            box-shadow: 0px 0px 10px #ff8cdf;
+        }
+    }
+}
+
+.search-button {
+    border-radius: 0.75rem;
+    //background-color: #050017 !important;
+    border: none;
+    height: 60px;
+    box-shadow: 0px 0px 13px #ff3f84;
+    color:#ff8cdf !important;
+    font-family: 'PressStart2P' !important;
+
+    &:hover {
+        box-shadow: 0px 0px 10px #ff3f84;
+        border: none;
+    }
+    &:active {
+        box-shadow: 0px 0px 10px #ff8cdf;
+        border: none;
+    }
+}
+
+.label-content{
+    margin-top: 60px;
+}
+
+.label-content .MuiTypography-root {
+    color:white;
+    
+    font-family: 'PressStart2P' !important;
+}
