@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Test Case
 
-Wallet Address : 0x8f9de2fc6b762b8751a96eb15fcc3f4a5e94aeac
+Wallet Address : 0x8f9de2fc6b762b8751a96eb15fcc3f4a5e94aeac .\
 Or any other wallet addresses.
 
 ## Available Scripts
