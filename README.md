@@ -2,9 +2,18 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Test Case
+
+Wallet Address : 0x8f9de2fc6b762b8751a96eb15fcc3f4a5e94aeac
+Or any other wallet addresses.
+
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `yarn`
+
+To set the set up modules, use `yarn` in the console.
 
 ### `yarn start`
 
